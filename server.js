@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 
 // modules
 var hellobot = require('./hellobot');
+var dicebot = require('./dicebot');
 
 var app = express();
 var port = process.env.PORT || 3000;
